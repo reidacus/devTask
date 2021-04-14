@@ -1,7 +1,7 @@
 version: '2'
 services:
   backendDB:
-    image: mongo
+    image: mongo:4.4.5
     ports:
       - '27017:27017'
     networks: 
@@ -9,7 +9,7 @@ services:
   frontEnd:
     build:
       context: ./originalSrc
-    image: my-golang-app3
+    image: frontend
     ports:
       - '8000:8000'
     networks:
