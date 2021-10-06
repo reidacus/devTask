@@ -1,6 +1,6 @@
 {
-    "name": "composer/satis",
-    "description": "Simple Repository Generator",
+    "name": "drupal/tester",
+    "description": "A simple test",
     "keywords": ["package", "repository", "generator", "static", "composer"],
     "homepage": "https://github.com/composer/satis",
     "type": "project",
